@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZukeDev - Portafolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Encabezado y Navegación -->
+    <header>
+        <div class="container header-container">
+            <div class="logo-container">
+                <img src="assets/images/logo.jpg" alt="ZukeDev Logo" class="logo">
+                <span>ZukeDev</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#blogs">Blogs recientes</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="social-links-nav">
+                <a href="https://www.youtube.com/@ZukeDev" target="_blank" rel="noopener noreferrer">YouTube</a>
+                <a href="https://steamcommunity.com/profiles/76561199441528592/" target="_blank" rel="noopener noreferrer">Steam</a>
+                <a href="https://github.com/HectorCruz2007" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección Hero -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="avatar-title">
+                        <img src="assets/images/avatar.jpg" alt="Avatar de Zuke" class="avatar">
+                        <div class="title-text">
+                            <h1>Hola! soy Zuke</h1>
+                            <p>Estudiante de ITIID y aprendiz de Godot Engine para desarrollo de videojuegos.</p>
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="https://github.com/HectorCruz2007" target="_blank" rel="noopener noreferrer" class="btn-github">
+                            <img src="assets/icons/github.png" alt="GitHub"> 
+                            GitHub - HectorCruz2007 
+                            <img src="assets/icons/link.png" alt="Enlace" class="icon-link">
+                        </a>
+                        <a href="#" class="btn-blog">
+                            <img src="assets/icons/staff.png" alt="Blog personal"> Blog
+                        </a>
+                        <a href="#contacto" class="btn-text">Información de contacto</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="assets/images/hero-character.png" alt="Personaje ilustrado">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Blogs Recientes -->
+        <section id="blogs" class="blogs-section">
+            <div class="container">
+                <h2>Blogs recientes</h2>
+                <div class="blogs-container">
+                    <article class="main-blog">
+                        <img src="assets/images/blog-main.png" alt="maldigoOS">
+                        <h3>maldigoOS</h3>
+                        <p>El sistema operativo que volvió del pasado.</p>
+                    </article>
+                    <div class="side-blogs">
+                        <article class="small-blog">
+                            <img src="assets/images/blog-thumb1.jpg" alt="Purrfect Beats">
+                            <div class="small-blog-info">
+                                <h4>Purrfect Beats</h4>
+                                <p>El mejor juego de ritmo indie de una sola tecla.</p>
+                                <time class="blog-date">día/mes/año hora:minuto</time>
+                            </div>
+                        </article>
+                        <article class="small-blog">
+                            <img src="assets/images/blog-thumb2.jpg" alt="Minecraft Dungeons II">
+                            <div class="small-blog-info">
+                                <h4>Minecraft Dungeons II</h4>
+                                <p>¿Es la mejor entrega spin off de Minecraft?</p>
+                                <time class="blog-date">día/mes/año hora:minuto</time>
+                            </div>
+                        </article>
+                        <article class="small-blog">
+                            <img src="assets/images/blog-thumb3.png" alt="Guías de Godot #1">
+                            <div class="small-blog-info">
+                                <h4>Guías de Godot #1</h4>
+                                <p>Crea tus bases para un juego de plataformas.</p>
+                                <time class="blog-date">día/mes/año hora:minuto</time>
+                            </div>
+                        </article>
+                        <a href="#" class="view-all">Ver todos los blogs</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Proyectos -->
+        <section id="proyectos" class="projects-section">
+            <div class="container">
+                <h2>Proyectos</h2>
+                <div class="projects-grid">
+                    <!-- Proyecto 1 -->
+                    <div class="project-cell"><article class="project-card">
+                        <img src="assets/images/proyecto1.png" alt="Psico's Experience">
+                        <div class="project-info">
+                            <div class="project-text">
+                                <h3>Psico’s Experience</h3>
+                                <p>A modpack created to complement the Minecraft experience by adding some decorative and functional items, new enemies and bosses, several decoration mods, new terrain generation, a balanced map system and QoL mods.</p>
+                            </div>
+                            <div class="tech"><span class="tech-label">Technologies</span><div class="tech-stack">
+                                <img src="assets/icons/forge.png" alt="Tech">
+                                <img src="assets/icons/java.png" alt="Tech">
+                            </div></div>
+                        </div>
+                    </article></div>
+                    <!-- Proyecto 2 -->
+                    <div class="project-cell"><article class="project-card">
+                        <img src="assets/images/proyecto3.png" alt="MelonMint">
+                        <div class="project-info">
+                            <div class="project-text">
+                                <h3>MelonMint</h3>
+                                <p>A persistent desktop virtual assistant that is positioned in any of the 4 corners of the screen. It helps create quick notes, reminders, and manage shortcuts from other apps.</p>
+                            </div>
+                            <div class="tech"><span class="tech-label">Technologies</span><div class="tech-stack">
+                                <img src="assets/icons/rust.png" alt="Tech">
+                                <img src="assets/icons/html.png" alt="Tech">
+                                <img src="assets/icons/css.png" alt="Tech">
+                                <img src="assets/icons/javaScript.png" alt="Tech">
+                            </div></div>
+                        </div>
+                    </article></div>
+                    <!-- Proyecto 3 -->
+                    <div class="project-cell"><article class="project-card">
+                        <img src="assets/images/proyecto2.png" alt="Touhou Kireiden">
+                        <div class="project-info">
+                            <div class="project-text">
+                                <h3>Touhou Kireiden</h3>
+                                <p>Video game inspired by ZUN's Touhou saga where Nitori Kawashiro and Kogasa Tatara must avoid chaos in Gensokyo caused by a miscalculation in a Nitori invention. Two-player support. Engine: MZ</p>
+                            </div>
+                            <div class="tech"><span class="tech-label">Technologies</span><div class="tech-stack">
+                                <img src="assets/icons/GDscript.png" alt="Tech">
+                                <img src="assets/icons/tscn.png" alt="Tech">
+                            </div></div>
+                        </div>
+                    </article></div>
+                    <!-- Proyecto 4 -->
+                    <div class="project-cell"><article class="project-card">
+                        <img src="assets/images/proyecto4.png" alt="Purple Mahou">
+                        <div class="project-info">
+                            <div class="project-text">
+                                <h3>Purple Mahou</h3>
+                                <p>A monster avalanche video game where you must help Fern rescue Stark from Aura the guillotine. Combine different spells to achieve the best combos.</p>
+                            </div>
+                            <div class="tech"><span class="tech-label">Technologies</span><div class="tech-stack">
+                                <img src="assets/icons/GDscript.png" alt="Tech">
+                                <img src="assets/icons/tscn.png" alt="Tech">
+                            </div></div>
+                        </div>
+                    </article></div>
+                </div>
+                <a href="#" class="view-all right-align">Ver todos los proyectos</a>
+            </div>
+        </section>
+
+        <!-- Sección Habilidades -->
+        <section id="habilidades" class="skills-section">
+            <div class="container">
+                <h2>Habilidades</h2>
+                <div class="skills-grid">
+                    <article class="skill-card">
+                        <div class="skill-img-container"><img src="assets/images/skill1.png" alt="GDScript"></div>
+                        <div class="skill-desc">
+                            <h4>GDScript</h4>
+                            <p>Scripting intermedio y avanzado en Godot Engine. Manejo fluido del árbol de escenas (SceneTree), comunicación desacoplada mediante señales (Signals), creación de métodos, vinculación de variables (@export), gestión de nodos de física 2D/3D, máquinas de estados y optimización de llamadas de ciclo de vida (_process, _physics_process).</p>
+                        </div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-img-container"><img src="assets/images/skill2.png" alt="C++"></div>
+                        <div class="skill-desc">
+                            <h4>C++</h4>
+                            <p>Programación orientada a objetos y genérica (Plantillas/Templates). Control de memoria eficiente (Stack vs. Heap, Punteros Inteligentes), optimización a bajo nivel, manipulación de la biblioteca estándar (STL) y desarrollo de sistemas de alto rendimiento para lógica de videojuegos y motores.</p>
+                        </div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-img-container"><img src="assets/images/skill3.png" alt="Java"></div>
+                        <div class="skill-desc">
+                            <h4>Java</h4>
+                            <p>Dominio de Programación Orientada a Objetos (encapsulamiento, herencia, polimorfismo y abstracción). Manejo de colecciones avanzadas (Collections Framework), control de excepciones, concurrencia/multihilo, gestión automática de memoria y diseño de arquitectura limpia.</p>
+                        </div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-img-container"><img src="assets/images/skill4.png" alt="Forge"></div>
+                        <div class="skill-desc">
+                            <h4>Forge</h4>
+                            <p>Creación e integración de mods. Registro de contenido personalizado (bloques, ítems, entidades y recetas), gestión del sistema de eventos (EventBus), desarrollo de TileEntities/BlockEntities y sincronización de datos cliente-servidor mediante paquetes NBT.</p>
+                        </div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-img-container"><img src="assets/images/skill5.png" alt="Figma"></div>
+                        <div class="skill-desc">
+                            <h4>Figma</h4>
+                            <p>Diseño de interfaces (UI/UX) y maquetación de prototipos interactivos. Creación de componentes modulares con variantes y propiedades, maquetación adaptativa mediante Auto Layout, estructuración de Design Systems, wireframes de alta fidelidad y preparación de entregables (handoff) para desarrollo.</p>
+                        </div>
+                    </article>
+                    <article class="skill-card">
+                        <div class="skill-img-container"><img src="assets/images/skill6.png" alt="Geometry Dash Triggers"></div>
+                        <div class="skill-desc">
+                            <h4>Geometry Dash Triggers</h4>
+                            <p>Programación visual de eventos dentro del editor de niveles. Control avanzado de triggers mecánicos y visuales (Move, Rotate, Spawn, Toggle, Alpha, Animate), manipulación de grupos e IDs (Group ID, Item ID), variables de conteo y automatización de minijuegos o sistemas complejos.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de página (Redes) -->
+    <footer id="contacto">
+        <div class="container">
+            <h2>Redes</h2>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <a href="mailto:HectorCruz2007@protonmail.com">Correo electrónico</a>
+                    <a href="#" data-copy="kasane_hector_2007" data-label="Usuario de Discord" title="Copiar usuario de Discord">Discord</a>
+                </div>
+                <div class="footer-column">
+                    <a href="https://www.instagram.com/zukesito/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                    <a href="https://www.threads.com/@zukesito" target="_blank" rel="noopener noreferrer">Threads</a>
+                </div>
+                <div class="footer-column">
+                    <a href="https://github.com/HectorCruz2007" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://steamcommunity.com/profiles/76561199441528592/" target="_blank" rel="noopener noreferrer">Steam</a>
+                </div>
+                <div class="footer-column">
+                    <a href="https://open.spotify.com/user/31xq6ah7kqt74r7mmxc4djz5xi5i" target="_blank" rel="noopener noreferrer">Spotify</a>
+                    <a href="https://www.facebook.com/profile.php?id=61574599906195" target="_blank" rel="noopener noreferrer">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

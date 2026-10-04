@@ -1,0 +1,40 @@
+.
+├── assets
+│   ├── icons
+│   │   ├── css.png
+│   │   ├── forge.png
+│   │   ├── GDscript.png
+│   │   ├── github.png
+│   │   ├── html.png
+│   │   ├── java.png
+│   │   ├── javaScript.png
+│   │   ├── link.png
+│   │   ├── rust.png
+│   │   ├── staff.png
+│   │   └── tscn.png
+│   └── images
+│       ├── avatar.jpg
+│       ├── blog-main.png
+│       ├── blog-thumb1.jpg
+│       ├── blog-thumb2.jpg
+│       ├── blog-thumb3.png
+│       ├── hero-character.png
+│       ├── logo.jpg
+│       ├── proyecto1.png
+│       ├── proyecto2.png
+│       ├── proyecto3.png
+│       ├── proyecto4.png
+│       ├── skill1.png
+│       ├── skill2.png
+│       ├── skill3.png
+│       ├── skill4.png
+│       ├── skill5.png
+│       └── skill6.png
+├── css
+│   └── styles.css
+├── index.html
+├── js
+│   └── main.js
+└── tree.txt
+
+6 directories, 32 files
